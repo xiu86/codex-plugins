@@ -18,7 +18,7 @@ codex plugin marketplace add xiu86/codex-plugins
 
 添加后重新打开 Codex 会话，即可使用市场中的插件能力。
 
-本仓库根目录包含 `marketplace.json`，Codex CLI 会根据该文件发现 `plugins/api-blackbox-tester/` 插件。
+本仓库包含 `.agents/plugins/marketplace.json`，Codex CLI 会根据该文件发现 `plugins/api-blackbox-tester/` 插件。
 
 ## 目录结构
 
@@ -28,4 +28,7 @@ plugins/
     ├── .codex-plugin/plugin.json
     ├── skills/
     └── README.md
+.agents/
+└── plugins/
+    └── marketplace.json
 ```
